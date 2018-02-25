@@ -1,3 +1,9 @@
+## Introduction-
+The web service handles request to buy or sell a particular amount of a currency (the base currency) with another currency (the quote currency). The service uses the orderbook to determine the best price the user would be able to get for that request by executing trades on GDAX.
+
+The web service has only one endpoint that receives JSON requests and responds with JSON. If there are any errors processing the request, it responds with a JSON object including an error message.
+
+
 ## Technology Stack -
 - Server - Tomcat 7
 - Web application - Spring
