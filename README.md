@@ -7,13 +7,13 @@
 ```
 mvn clean install
 ```
-Extract the coinbase-takehome.zip file.
+Extract the gdax-service.zip file.
 ```
-unzip coinbase-takehome.zip
+unzip gdax-service.zip
 ```
 2. Execute the following commands:
 ```
-cd coinbase-takehome
+cd gdax-service
  ./startScript.sh
  ```
 3. Now, our service is deployed on tomcat.
