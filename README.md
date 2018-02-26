@@ -35,6 +35,7 @@ curl -d '{"action": "buy","base_currency": "BTC","quote_currency": "USD",
 
 ### Examples-
 Following are few requests handled by our api and the responses returned:
+
 **Case 1** Valid Request
 ```
 {
@@ -99,7 +100,7 @@ currencies should be non empty"
 floating point number"
 }
 ```
-**Case 5 **Amount field is 0.
+**Case 5** Amount field is 0.
 ```
 {
 "action": "Buy",
@@ -130,7 +131,7 @@ zero"
 "message": "Invalid Currency Pair: INR-BTC"
 }
 ```
-**Case 6 **Requested amount exceeds the sum of sizes present in top 50 bids/asks
+**Case 7** Requested amount exceeds the sum of sizes present in top 50 bids/asks
 ```
 {
 "action": "Sell",
@@ -146,10 +147,12 @@ zero"
 Please try again with smaller amount."
 }
 ```
-**Case 7** Gdax orderbook api is not working
+**Case 8** Gdax orderbook api is not working
 ```
 {
 "code": "503",
 "message": "Unexpected Error"
 }
 ```
+
+
